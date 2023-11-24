@@ -1,0 +1,27 @@
+.card {
+  height: 35rem;
+  width: 22rem;
+  background-color: red;
+  outline: black dotted 1px;
+
+  .card-container {
+    .card-img-container {
+      overflow: hidden;
+
+      .card-status {
+        position: absolute;
+        z-index: 1;
+      }
+
+      .card-img-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card-image {
+          height: 26rem;
+        }
+      }
+    }
+  }
+}

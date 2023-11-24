@@ -1,0 +1,14 @@
+.navbar {
+  height: 6.5rem;
+  box-shadow: 0 4px 7px lightgray;
+
+  .navbar-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .airbnb-logo {
+      margin-left: 3.5rem;
+    }
+  }
+}

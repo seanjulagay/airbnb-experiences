@@ -1,0 +1,41 @@
+.hero {
+  height: 80vh;
+  min-height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10rem 0 10rem;
+    gap: 10rem;
+
+    .hero-image {
+      width: 60rem;
+      object-fit: scale-down;
+      min-width: 30rem;
+    }
+
+    .hero-desc {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .hero-header,
+      .hero-text {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .hero-header {
+        font-size: 3.6rem;
+        margin: 0;
+      }
+
+      .hero-text {
+        max-width: 40rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
