@@ -38,6 +38,10 @@ export default function Card({
               ({ratingAmount}) • {location}
             </span>
           </div>
+          <span className="card-desc-text">{desc}</span>
+          <div className="card-desc-price">
+            <span className="card-desc-price-bold">From ${price} /</span> person
+          </div>
         </div>
       </div>
     </div>

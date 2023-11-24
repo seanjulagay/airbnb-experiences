@@ -36,22 +36,29 @@
       }
     }
     .card-desc-container {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
       .card-desc-rating-container {
         margin-top: 1rem;
         display: flex;
         align-items: center;
-        font-family: "Poppins", sans-serif;
-        font-size: 1.2rem;
+
         > * {
           margin-right: 0.5rem;
         }
         .card-desc-star-img {
           height: 1.2rem;
         }
-        .card-desc-rating-text {
-        }
         .card-desc-rating-details-text {
           color: gray;
+        }
+      }
+      .card-desc-price {
+        .card-desc-price-bold {
+          font-weight: 600;
         }
       }
     }
