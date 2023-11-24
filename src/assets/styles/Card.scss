@@ -1,16 +1,26 @@
 .card {
   height: 35rem;
   width: 22rem;
-  background-color: red;
-  outline: black dotted 1px;
+  // background-color: red;
+  // outline: black dotted 1px;
 
   .card-container {
     .card-img-container {
       overflow: hidden;
+      border-radius: 10px;
 
-      .card-status {
+      .card-status-div {
         position: absolute;
+        margin: 1rem 0 0 1rem;
         z-index: 1;
+        background-color: white;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 3.5px;
+        .card-status {
+          font-size: 1.2rem;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+        }
       }
 
       .card-img-div {
@@ -19,7 +29,29 @@
         justify-content: center;
 
         .card-image {
-          height: 26rem;
+          height: 28rem;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .card-desc-container {
+      .card-desc-rating-container {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        > * {
+          margin-right: 0.5rem;
+        }
+        .card-desc-star-img {
+          height: 1.2rem;
+        }
+        .card-desc-rating-text {
+        }
+        .card-desc-rating-details-text {
+          color: gray;
         }
       }
     }
